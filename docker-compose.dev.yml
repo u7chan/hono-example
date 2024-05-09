@@ -7,3 +7,7 @@ services:
       dockerfile: .devcontainer/Dockerfile
     volumes:
       - ./:/workspace
+      - playground_node_modules:/workspace/node_modules
+
+volumes:
+  playground_node_modules:
