@@ -1,5 +1,5 @@
-import { OpenAPIHono, createRoute, z } from "@hono/zod-openapi";
 import { swaggerUI } from "@hono/swagger-ui";
+import { OpenAPIHono, createRoute, z } from "@hono/zod-openapi";
 
 const app = new OpenAPIHono();
 
